@@ -1,0 +1,61 @@
+# ── .NET / C# ────────────────────────────────────────────────────────────────
+*.user
+*.suo
+*.vs/
+bin/
+obj/
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# ── Node / Frontend ──────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+.nuxt/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Environment / Secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+appsettings.Production.json
+
+# ── Docker ───────────────────────────────────────────────────────────────────
+.dockerignore
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.bak
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# ── Uploads (user files) ─────────────────────────────────────────────────────
+src/backend/FptRagLab.API/uploads/
